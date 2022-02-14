@@ -1,1 +1,0 @@
-# kentonakatsuru.github.io
