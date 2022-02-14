@@ -191,6 +191,10 @@ dt{
 	background-position: center;
 }
 
+/* #sec01_02 img{
+	width: auto;
+} */
+
 /* SEC02 Gallery
 ------------------------------------------------------------*/
 #sec02{
@@ -400,7 +404,7 @@ dt{
 	margin-right: auto;
 	max-width: 720px;
   }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 12280px) {
 	.Form {
 	  margin-top: -10px;
 	  margin-left: auto;
@@ -414,7 +418,7 @@ dt{
 	display: flex;
 	align-items: center;
   }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 12280px) {
 	.Form-Item {
 	  padding-left: 14px;
 	  padding-right: 14px;
@@ -434,7 +438,7 @@ dt{
 	font-weight: bold;
 	font-size: 18px;
   }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 12280px) {
 	.Form-Item-Label {
 	  max-width: inherit;
 	  display: flex;
@@ -447,7 +451,7 @@ dt{
 	margin-top: 8px;
 	margin-bottom: auto;
   }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 12280px) {
 	.Form-Item-Label.isMsg {
 	  margin-top: 0;
 	  margin-bottom: 20px;
@@ -465,7 +469,7 @@ dt{
 	color: #fff;
 	font-size: 14px;
   }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 12280px) {
 	.Form-Item-Label-Required {
 	  border-radius: 4px;
 	  padding-top: 4px;
@@ -487,7 +491,7 @@ dt{
 	background: #eaedf2;
 	font-size: 18px;
   }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 12280px) {
 	.Form-Item-Input {
 	  margin-left: 0;
 	  margin-top: px;
@@ -511,7 +515,7 @@ dt{
 	background: #eaedf2;
 	font-size: 18px;
   }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 12280px) {
 	.Form-Item-Textarea {
 	  margin-top: 0px;
 	  margin-left: 0;
@@ -537,7 +541,7 @@ dt{
 	font-weight: bold;
 	font-size: 20px;
   }
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 12280px) {
 	.Form-Btn {
 	  margin-top: 24px;
 	  padding-top: 8px;
@@ -638,7 +642,7 @@ dt{
 		left: 2%;
 	}
 	#sec01_02{
-		padding: 180px 0px;
+		padding: 220px 0px;
 		background-position: center;
 	}
 }
@@ -653,7 +657,7 @@ dt{
 	#headerWrap{
 		position: relative;
 		width: 100%;
-		height: 100px;
+		height: 70px;
 		background: rgb(94, 66, 66);
 		/* background-color: #50151c; */
 	}
