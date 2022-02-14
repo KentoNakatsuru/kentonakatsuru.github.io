@@ -203,24 +203,20 @@
 		<ul class="col2">
 			<li>
 				<div class="Form">
-					<form method="post" action="mailto:nakatsuru@hlab.sys.es.osaka-u.ac.jp">
+					<form action="https://formspree.io/f/xayvonzn" method="POST">
 						<div class="Form-Item">
-						<p class="Form-Item-Label">お名前</p>
-						<input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
-						</div>
-						<!-- <div class="Form-Item">
-						<p class="Form-Item-Label">電話番号</p>
-						<input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
-						</div> -->
-						<div class="Form-Item">
-						<p class="Form-Item-Label">メールアドレス</p>
-						<input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+							<label for="name"></label><p class="Form-Item-Label" >name</p></label>
+							<input type="text" id="name" name="name" class="Form-Item-Input" placeholder="ex) John Smith" required>
 						</div>
 						<div class="Form-Item">
-						<p class="Form-Item-Label isMsg">お問い合わせ内容</p>
-						<textarea class="Form-Item-Textarea"></textarea>
+							<label for="email"></label><p class="Form-Item-Label">email</p></label>
+							<input type="email" id="email" name="email" class="Form-Item-Input" placeholder="ex）example@gmail.com" required>
 						</div>
-						<input type="submit" class="Form-Btn" value="送信する">
+						<div class="Form-Item">
+							<label for="message"></label><p class="Form-Item-Label isMsg">message</p></label>
+							<textarea class="Form-Item-Textarea" id="message" name="message" required></textarea>
+						</div>
+						<input type="submit" class="Form-Btn" value="send">
 					</form>
 				</div>
 				<!-- <p id="sns">
